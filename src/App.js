@@ -5,12 +5,25 @@ import Welcome from './Component/welcome';
 import Hello from './Component/Hello';
 import Message from './Component/Message';
 import Counter from './Component/Counter';
+import Destr from './Component/destr';
+import FunctionClick from './Component/FunctionClick';
+import ClassClick from './Component/ClassClick';
+import EventBind from './Component/EventBind';
+
 
 
 function App() {
   return (
+    
     <div className="App">
-      ¨<Counter />
+
+   <EventBind />
+      {/* <Destr name="Tanim" hName="Good" /> */}
+      {/* <Welcome name="Tanim" hName="Good"/> */}
+     {/* /*  <FunctionClick />
+      <ClassClick /> */ }
+      
+     {/*  ¨<Counter /> */}
      {/*  <Message /> */}
      {/*  <Greet name="Tanim" hName="Good">
         <p>This is children</p>
